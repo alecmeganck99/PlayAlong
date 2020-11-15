@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.790a364a.chunk.css",
+    "main.js": "/static/js/main.3c8cde64.chunk.js",
+    "main.js.map": "/static/js/main.3c8cde64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.432056eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.432056eb.js.map",
+    "static/js/2.6fe8f950.chunk.js": "/static/js/2.6fe8f950.chunk.js",
+    "static/js/2.6fe8f950.chunk.js.map": "/static/js/2.6fe8f950.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.790a364a.chunk.css.map": "/static/css/main.790a364a.chunk.css.map",
+    "static/js/2.6fe8f950.chunk.js.LICENSE.txt": "/static/js/2.6fe8f950.chunk.js.LICENSE.txt",
+    "static/media/PlayAlong12-18.39f86f01.png": "/static/media/PlayAlong12-18.39f86f01.png",
+    "static/media/PlayAlong18.44fc6775.png": "/static/media/PlayAlong18.44fc6775.png",
+    "static/media/PlayAlong2-6.073ba4f6.png": "/static/media/PlayAlong2-6.073ba4f6.png",
+    "static/media/PlayAlong6-12.56754409.png": "/static/media/PlayAlong6-12.56754409.png",
+    "static/media/PlayAlongLogo.6b6aa272.svg": "/static/media/PlayAlongLogo.6b6aa272.svg",
+    "static/media/add-to-cart.7b0a96e1.svg": "/static/media/add-to-cart.7b0a96e1.svg",
+    "static/media/shopping-bags.280e594f.svg": "/static/media/shopping-bags.280e594f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.432056eb.js",
+    "static/js/2.6fe8f950.chunk.js",
+    "static/css/main.790a364a.chunk.css",
+    "static/js/main.3c8cde64.chunk.js"
+  ]
+}

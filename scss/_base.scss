@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@400;600&display=swap");
+
+:root {
+    --font-family-sourcesanspro: "Grandstander", cursive;
+    --color-background: #f4eee4;
+    --color-white: #ebebeb;
+
+    --color-red: #f62f2f;
+    --color-darkred: #a71d1d;
+
+    --color-lightpink: #f5b6b0;
+    --color-pink: #ff5e72;
+    --color-darkpink: #bd4452;
+
+    --color-lightorange: #f1bf89;
+    --color-orange: #ec8011;
+    --color-darkorange: #975008;
+
+    --color-lightyellow: #e8e48b;
+    --color-yellow: #fffd00;
+    --color-darkyellow: #a0a000;
+
+    --color-blue: #11a9ec;
+
+    --color-grey: #8b8882;
+    --color-black: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-background);
+    font-family: var(--font-family-sourcesanspro);
+}
+
+a {
+    text-decoration: none;
+}
+
+.app {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.space {
+    height: 50px;
+    width: 100%;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-size: 22px;
+    }
+}

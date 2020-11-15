@@ -1,0 +1,147 @@
+.webshop {
+    margin-top: 60px;
+    &__filter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-white);
+        width: 1200px;
+        margin: 0 auto;
+        border: 2.5px solid var(--color-black);
+        border-radius: 15px;
+        height: 50px;
+        p {
+            font-size: 22px;
+            padding: 10px 60px;
+            width: 300px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p:hover {
+            background-color: var(--color-orange);
+            border: 2.5px solid var(--color-black);
+            border-radius: 15px;
+        }
+    }
+    &__games {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 100px;
+        width: 1200px;
+        margin: 60px auto;
+        .game {
+            height: 400px;
+            width: 350px;
+            background-color: var(--color-white);
+            border: 2.5px solid var(--color-black);
+            border-radius: 15px;
+            margin-top: 40px;
+            padding-top: 20px;
+            &__img {
+                width: 300px;
+                margin: 0 auto;
+                background-color: var(--color-white);
+                border-radius: 15px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                img {
+                    height: 250px;
+                    width: 100%;
+                    display: block;
+                    border-radius: 15px;
+                }
+            }
+            &__info {
+                display: flex;
+                padding: 0 20px;
+                .txt {
+                    width: 200px;
+                    &__title {
+                        font-size: 22px;
+                        margin: 15px 0;
+                        color: var(--color-black);
+                    }
+                    &__price {
+                        font-size: 20px;
+                        color: var(--color-black);
+                    }
+                }
+                .cart {
+                    display: flex;
+                    margin-left: auto;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.margin {
+    margin: 20px 0;
+}
+
+.game-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-white);
+    border: 2.5px solid var(--color-black);
+    border-radius: 15px;
+    padding: 20px;
+    .imgbox {
+        width: 100%;
+        img {
+            border-radius: 15px;
+        }
+    }
+    .txtbox {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        margin-left: 20px;
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .desc {
+            margin-bottom: 20px;
+        }
+        .cat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            .age {
+                color: var(--color-black);
+                background-color: var(--color-pink);
+                padding: 5px 20px;
+                border-radius: 15px;
+                transition: 0.4s;
+                width: fit-content;
+            }
+            .price {
+                font-size: 28px;
+                font-weight: 700;
+            }
+        }
+        .shopping {
+            margin-bottom: 20px;
+            display: flex;
+            cursor: pointer;
+            margin-left: auto;
+        }
+        .imgs {
+            height: 150px;
+            display: flex;
+            margin-top: auto;
+            img {
+                height: 100%;
+                border-radius: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+}

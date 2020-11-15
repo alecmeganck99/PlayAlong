@@ -1,0 +1,103 @@
+.bag {
+    background-color: var(--color-white);
+    border: 2.5px solid var(--color-black);
+    border-radius: 15px;
+    padding: 20px;
+    p {
+        font-size: 32px;
+    }
+    .game {
+        display: grid;
+        grid-template-columns: 150px 1fr 220px;
+        margin: 20px 0 30px;
+        &__img {
+            width: 150px;
+            height: 150px;
+            border: 2.5px solid var(--color-black);
+            border-radius: 15px;
+            img {
+                height: 100%;
+                // width: 100%;
+                object-fit: cover;
+                display: block;
+                border-radius: 15px;
+                margin: 0 auto;
+            }
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+            width: 300px;
+        }
+        &__total {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: 30px;
+            .price {
+                margin-left: 30px;
+            }
+        }
+    }
+    &__total {
+        padding: 20px 30px;
+        border: 2.5px solid var(--color-black);
+        border-radius: 15px;
+        display: flex;
+        margin-top: 20px;
+        a {
+            margin-left: auto;
+            color: var(--color-black);
+            transition: 0.4s;
+        }
+        a:hover {
+            color: var(--color-pink);
+        }
+    }
+}
+
+.thanks {
+    background-color: var(--color-white);
+    border: 2.5px solid var(--color-black);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    a {
+        font-size: 18px;
+        color: var(--color-black);
+        background-color: var(--color-pink);
+        padding: 5px 20px;
+        border-radius: 15px;
+        transition: 0.4s;
+        margin-right: 10px;
+        border: 2.5px solid var(--color-black);
+    }
+    a:hover {
+        color: var(--color-white);
+        background-color: var(--color-darkpink);
+    }
+    &__option {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        a {
+            font-size: 18px;
+            color: var(--color-black);
+            background-color: var(--color-pink);
+            padding: 5px 20px;
+            border-radius: 15px;
+            transition: 0.4s;
+            margin-right: 10px;
+            border: 2.5px solid var(--color-black);
+        }
+        a:hover {
+            color: var(--color-white);
+            background-color: var(--color-darkpink);
+        }
+    }
+}

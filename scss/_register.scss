@@ -1,0 +1,84 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    background-color: var(--color-white);
+    padding: 50px 0;
+    border: 2.5px solid var(--color-black);
+    border-radius: 15px;
+}
+
+.form {
+    width: 500px;
+    button {
+        border: 2.5px solid var(--color-black);
+        border-radius: 15px;
+        background-color: var(--color-pink);
+        font-family: var(--font-family-sourcesanspro);
+        font-size: 18px;
+        padding: 5px 15px;
+        transition: 0.4s;
+        margin-bottom: 20px;
+        margin-right: auto;
+        a {
+            color: var(--color-black);
+            transition: 0.4s;
+        }
+        a:hover {
+            color: var(--color-white);
+        }
+    }
+    button:hover {
+        color: var(--color-white);
+    }
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        span {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        textarea {
+            font-family: var(--font-family-sourcesanspro);
+            padding: 5px 15px;
+            font-size: 22px;
+            border: 2.5px solid var(--color-black);
+            border-radius: 15px;
+            height: 100px;
+        }
+        input {
+            font-family: var(--font-family-sourcesanspro);
+            padding: 5px 15px;
+            font-size: 22px;
+            border: 2.5px solid var(--color-black);
+            border-radius: 15px;
+        }
+        select {
+            option {
+                font-family: var(--font-family-sourcesanspro);
+            }
+        }
+    }
+    button {
+        border: 2.5px solid var(--color-black);
+        border-radius: 15px;
+        background-color: var(--color-pink);
+        font-family: var(--font-family-sourcesanspro);
+        font-size: 18px;
+        padding: 5px 15px;
+        transition: 0.4s;
+        a {
+            color: var(--color-black);
+            transition: 0.4s;
+        }
+        a:hover {
+            color: var(--color-white);
+        }
+    }
+    button:hover {
+        color: var(--color-white);
+    }
+}
